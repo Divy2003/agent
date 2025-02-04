@@ -1,1 +1,1 @@
-web: gunicorn insurance.wsgi  --log-file -
+web: gunicorn --bind 0.0.0.0:8080 insurance.wsgi --log-file -
